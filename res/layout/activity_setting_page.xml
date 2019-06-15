@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="match_parent" >
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/settings"
+            android:background="@drawable/shape"
+            android:textColor="#ffff"
+            android:layout_marginTop="50dp"
+            android:text="语音设置" />
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/setDic"
+            android:textColor="#ffff"
+            android:background="@drawable/shape"
+            android:layout_marginTop="50dp"
+            android:text="标记设置" />
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/clean"
+            android:textColor="#ffff"
+            android:background="@drawable/shape_red"
+            android:layout_marginTop="50dp"
+            android:text="清空历史" />
+
+    <Switch android:layout_width="match_parent" android:layout_height="41dp"
+            android:text="智能过滤开关"
+            android:background="@drawable/shape"
+            android:textColor="#ffff"
+            android:layout_marginTop="50dp"
+            android:id="@+id/switch_bt"/>
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/filter"
+            android:textColor="#ffff"
+            android:background="@drawable/shape"
+            android:layout_marginTop="50dp"
+            android:text="过滤器设置" />
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/about"
+            android:layout_marginTop="50dp"
+            android:text="关于" />
+
+</LinearLayout>

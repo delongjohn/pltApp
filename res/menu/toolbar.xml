@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu   xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/take_photo"
+        android:title="TAKE"
+        android:icon="@drawable/photo"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/choose"
+        android:title="CHOOSE"
+        android:icon="@drawable/choose"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/settings"
+        android:title="setting"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/set" />
+
+</menu>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">拍立听</string>
+    <string name="bt1">Take Photo</string>
+    <string name="bt2">Choose From Album</string>
+    <string name="about_title">
+        关于本软件
+    </string>
+    <string name="about">
+        本软件为开源软件,目的是交流学习android以及java开发。\n
+        仓库地址为https://github.com/delongjohn/pltApp\n
+        欢迎大家来交流学习。
+    </string>
+</resources>
